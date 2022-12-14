@@ -1,13 +1,256 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Научиться учиться</title>
-</head>
-<body>
-  <div class="page">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Научиться учиться</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__logo-place">
+          <img
+            class="logo"
+            src="./images/logo_place_header.svg"
+            alt="логотип Яндекс Практикум">
+        </div>
+        <div></div>
+        <div class="header__title"><h1>Научиться учиться</h1></div>
+        <div class="header__subtitle"><h2>
+          Какие современные и эффективные подходы к обучению вы можете
+          использовать в своей жизни?<a class="header__subtitle-link" href="#methods"> Узнать &#8594;</h2></a>
+        </div>
+        <div class="header__main-illustration-place">
+          <img class="header__main-illustration"
+            src="./images/header-image.png"
+            alt="Опять двойка">
+        </div>
+        <div class="header__square-pic"></div>
+      </header>
 
-  </div>
-</body>
+      <section class="description">
+        <div class="description__two-column">
+          <div class="description__two-column__brief">
+            <h3>Главные проблемы в обучении</h3>
+          </div>
+          <div class="description__two-column__main-text">
+            <p class="description__two-column__main-text__paragraph">
+              Ни в школе, ни в институте нас не учат тому, как правильно изучать
+              материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся
+              решать однообразные задачи, чтобы лучше сдать тест, но часто в
+              итоге это не дает нам реального знания. Зубрежка быстро
+              выветривается и не приносит пользы.
+            </p>
+            <p
+              class="description__two-column__main-text__paragraph paragraph-2"
+            >
+              <span class="bold">Вывод:</span> учиться тоже нужно уметь, но
+              почему-то этому мало где учат. Что с этим делать?
+            </p>
+            <p class="description__two-column__main-text__paragraph">
+              Конкретные техники и упражнения помогают изменить подход к
+              обучению, сделать его эффективным и захватывающим. Эти же техники
+              применяются на примере обучения в Практикуме.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="digits">
+        <div><h4>Цифры и факты</h4></div>
+        <div><h5>Про учебу и мозг</h5></div>
+        <div class="table">
+          <div class="table__row__theme_light">
+            <div class="table__row__cell__theme_light">
+              <div class="table-sub-subtitle"><h6>86 миллиардов</h6></div>
+              <div class="table__row__cell__text">
+                Число нейронов в мозге человека
+              </div>
+            </div>
+            <div class="table__row__cell__theme_light">
+              <div class="table-sub-subtitle"><h6>2.1 миллиарда</h6></div>
+              <div class="table__row__cell__text">
+                Число нуждающихся в повышении квалификации
+              </div>
+              <div class="table__row__cell__text">Всемирный банк, 2017</div>
+            </div>
+            <div class="table__row__cell__theme_light">
+              <div class="table-sub-subtitle"><h6>1000 терабайт</h6></div>
+              <div class="table__row__cell__text">Объем памяти человека</div>
+            </div>
+            <div class="table__row__cell__theme_light">
+              <div class="table-sub-subtitle"><h6>500 триллионов</h6></div>
+              <div class="table__row__cell__text">
+                Число ответственных за обучение нервных синапсов у взрослого
+                человека
+              </div>
+            </div>
+          </div>
+          <div class="table__row__theme_light">
+            <div class="table__row__cell__theme_light">
+              <div  class="table-sub-subtitle"><h6>420 миллионов</h6></div>
+              <div class="table__row__cell__text">
+                Число взрослых людей, не имеющих образования для трудоустройства
+              </div>
+            </div>
+            <div class="table__row__cell__theme_light">
+              <div  class="table-sub-subtitle"><h6>17-20 лет</h6></div>
+              <div class="table__row__cell__text">Пик обучаемости</div>
+            </div>
+            <div class="table__row__cell__theme_light">
+              <div  class="table-sub-subtitle"><h6>1885 год</h6></div>
+              <div class="table__row__cell__text">
+                Открытие кривой забывания
+              </div>
+            </div>
+            <div class="table__row__cell__theme_light">
+              <div class="table-sub-subtitle"><h6>1889 год</h6></div>
+              <div class="table__row__cell__text">
+                Открытие условного рефлекса
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feynman">
+        <div class="feynman__title" id="methods">Метод Фейнмана</div>
+        <div class="feynman__subtitle">Выучить и не забыть</div>
+        <div class="feynman__link"><a class="feynman-link" href="https://ideanomics.ru/articles/7981" target="_blank">Подробнее &#8594;</a></div>
+        <div class="feynman__picture-place">
+          <img
+            class="feynman-picture"
+            src="./images/feynman.png"
+            alt="фото Фейнмана"
+          />
+        </div>
+      </section>
+
+      <section class="kaufman">
+        <div class="kaufman-triangle-place"><img
+            class="kaufman-triangle"
+            src="./images/kaufman-triangle.svg"
+            alt="синий треугольник"></div>
+        <div class="table">
+          <div><h4>Принципы обучения</h4></div>
+          <div><h5>от Джоша Кауфмана</h5></div>
+          <div class="table">
+            <div class="table__row__theme_dark">
+              <div class="table__row__cell__theme_dark">
+                <div  class="table-sub-subtitle"><h6>1</h6></div>
+                <div class="table__row__cell__text">
+                  Выберите привлекательный проект.
+                </div>
+              </div>
+              <div class="table__row__cell__theme_dark">
+                <div  class="table-sub-subtitle"><h6>2</h6></div>
+                <div class="table__row__cell__text">
+                  Сосредоточьтесь на каком-то одном навыке.
+                </div>
+              </div>
+              <div class="table__row__cell__theme_dark">
+                <div class="table-sub-subtitle"><h6>3</h6></div>
+                <div class="table__row__cell__text">
+                  Определите целевой уровень мастерства.
+                </div>
+              </div>
+              <div class="table__row__cell__theme_dark">
+                <div class="table-sub-subtitle"><h6>4</h6></div>
+                <div class="table__row__cell__text">
+                  Разбейте навык на элементы.
+                </div>
+              </div>
+                <div class="table__row__cell__theme_dark">
+                  <div class="table-sub-subtitle"><h6>5</h6></div>
+                  <div class="table__row__cell__text">
+                    Приготовьте все необходимое для занятий.
+                  </div>
+                </div>
+              </div>
+              <div class="table__row__theme_dark">
+                <div class="table__row__cell__theme_dark">
+                  <div class="table-sub-subtitle"><h6>6</h6></div>
+                  <div class="table__row__cell__text">
+                    Устраните препятствия для занятий.
+                  </div>
+                </div>
+                <div class="table__row__cell__theme_dark">
+                  <div class="table-sub-subtitle"><h6>7</h6></div>
+                  <div class="table__row__cell__text">
+                    Выделите специальное время для занятий.
+                  </div>
+                </div>
+                <div class="table__row__cell__theme_dark">
+                  <div class="table-sub-subtitle"><h6>8</h6></div>
+                  <div class="table__row__cell__text">
+                    Создайте быстрые петли обратной связи.
+                  </div>
+                </div>
+                <div class="table__row__cell__theme_dark">
+                  <div class="table-sub-subtitle"><h6>9</h6></div>
+                  <div class="table__row__cell__text">
+                    Занимайтесь по расписанию, короткими интенсивными
+                    интервалами.
+                  </div>
+                </div>
+                <div class="table__row__cell__theme_dark">
+                <div class="table-sub-subtitle"><h6>10</h6></div>
+                <div class="table__row__cell__text">
+                  Уделяйте внимание количеству и скорости.
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+        
+      </section>
+
+      <footer class="footer">
+        <div class="footer__columns">
+        <div class="footer__copyright">
+          <div class="footer__logo-place"><img
+            class="logo"
+            src="./images/logo_place_footer.svg"
+            alt="логотип Яндекс Практикум">
+          </div>
+          <div class="author">&copy Виктор Абанькин</div>
+        </div>
+
+
+        <div class="footer__info">
+          <div class="footer__info__heading">О Практикуме</div>
+          <div class="footer__info-links-block"></div>
+          <div><a class="footer__link" href="https://practicum.yandex.ru/" target="_blank">Главная</a></div>
+          <div><a class="footer__link" href="https://yandex.ru/support/praktikum/index.html" target="_blank">Концепция</a></div>
+          <div><a class="footer__link" href="https://yandex.ru/support/praktikum/mentors.html?ysclid=lbl60z96jo982705402" target="_blank">Наставники</a></div>
+        </div>
+
+        <div class="footer__social-icons">
+          <div class="footer__social-icons__heading">Соцсети</div>
+
+        <div class="footer__social-icons-block"></div>
+          <div class="footer__social-icon__place">
+            <a href="https://www.youtube.com/"><img class="footer__social-icon-picture" src="./images/youtube-icon.svg" alt="YouTube"></a>
+            <a class="footer__link" href="https://www.youtube.com/channel/UCjaEmNS6ZOeKgVemfBikjGQ" target="_blank">YouTube</a>
+          </div>
+
+          <div class="footer__social-icon__place">
+            <a class="footer__link" href="https://vk.com/"><img class="footer__social-icon-picture" src="./images/vk_color_white.svg" alt="ВКонтакте"></a>
+            <a class="footer__link" href="https://vk.com/yandex.practicum" target="_blank">ВКонтакте</a>
+          </div>
+
+          <div class="footer__social-icon__place">
+            <a class="footer__link" href="https://www.tiktok.com"><img class="footer__social-icon-picture" src="./images/tiktok-icon.svg" alt="TikTok"></a>
+            <a class="footer__link" href="https://www.tiktok.com/@yandex.pro" target="_blank">TikTok</a>
+          </div>
+
+        </div>
+      </div>
+      </footer>
+    </div>
+  </body>
 </html>
