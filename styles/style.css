@@ -36,7 +36,7 @@ h4 {
   margin: 0 auto;
   line-height: 1.15;
   font-size: 60px;
-  font-weight: 600; 
+  font-weight: 600;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -211,7 +211,7 @@ font-weight: 700;
 }
 
 .table-sub-subtitle {
-  padding-bottom: 20px;  
+  padding-bottom: 20px;
   margin: 0 auto;
 }
 
@@ -227,7 +227,7 @@ font-weight: 700;
 }
 .feynman__picture-place {
  position: absolute;
- width: 867px; 
+ width: 867px;
  height: 637px;
  bottom: 0;
  left: 0;
@@ -243,7 +243,7 @@ font-weight: 700;
   padding-bottom: 70px;
   margin: 0 auto;
   text-align: center;
-  width: 648px; 
+  width: 648px;
   font-size: 120px;
   line-height: 1.15;
   font-weight: 600;
