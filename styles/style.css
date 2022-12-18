@@ -132,16 +132,15 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto;
-  z-index: 1;
   width: 1100px;
 }
 
-.table_theme_dark {   /*модификатор theme_dark применен для всей таблицы (блока)*/
+.table_theme_dark {
   color:#f2f2f2;
   z-index: 1;
 }
 
-.table-title {
+.section-title {
   text-align: center;
   margin: 0 auto;
   width: 60%;
@@ -151,13 +150,23 @@
   padding-bottom: 20px;
 }
 
-.table-subtitle {
+.section-title_theme_dark {
+  color:#f2f2f2;
+  z-index: 1;
+}
+
+.section-subtitle {
   text-align: center;
   margin: 0 auto;
   width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: 400;
+}
+
+.section-subtitle_theme_dark {
+  color:#f2f2f2;
+  z-index: 1; 
 }
 
 .table__heading {
@@ -167,16 +176,22 @@
   line-height: 1.15;
 }
 
+.table__heading_theme_dark {
+  color:#f2f2f2;
+  z-index: 1;  
+}
+
 .table__cell {
+  margin: 0;
   width: 250px;
   padding-top: 60px;
-  list-style-type: none;
-  margin: 0;
 }
 
 .table__cell_theme_dark {
-  width: 200px;
+  width: 200px; 
   padding-top: 80px;
+  color:#f2f2f2;
+  z-index: 1; 
 }
 
 .table__text {
@@ -186,6 +201,7 @@
   font-size: 18px;
   font-weight: 400; 
 }
+
 
 .feynman {
   display: flex;
@@ -245,7 +261,6 @@
   margin: 0 auto;
   padding-top: 90px;
   padding-bottom: 90px;
-  /*color: #f2f2f2;        до первой проверки я установила белый цвет текста на всю секцию, после проверки добавила модификатор .table_dark */
   background-color: #1f1f1f;
   overflow: hidden;
 }
@@ -264,29 +279,32 @@
 .footer {
   margin: 0 auto;
   min-height: 350px;
-  color: #f2f2f2;
   background-color: #1f1f1f;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0 auto; 
   padding-top: 60px;
   padding-bottom: 40px;
   width: 90%;
-  height: 250px; 
+  min-height: 250px;
+}
+
+.footer__column {
+  color: #f2f2f2;
 }
 
 .footer__column_content_copyright {
   display: flex;
-  position: relative;
   flex-basis: 711px;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .footer__author {
+  margin: 0;
   padding-top: 18px;
   padding-bottom: 18px;
   line-height: 25px;
