@@ -1,0 +1,6 @@
+.video__iframe {
+    width: 515px;
+    height: 316px; 
+    overflow: hidden;
+    margin-bottom: -40px; /* не нашла размер сдвига вниз в брифе */
+  }
