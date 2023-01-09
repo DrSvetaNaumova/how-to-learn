@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./pages/index.css">
 
   </head>
   <body>
@@ -17,7 +17,7 @@
           <a class="header__link link" href="#methods">Узнать &#8594;</a>
         </p>
         <img class="header__main-illustration" src="./images/header-image.png" alt="Опять двойка">
-        <div class="header__square-pic rotate"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
 
       <main>
@@ -51,29 +51,29 @@
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
           <ul class="cards">
             <li class="cards__item">
-              <div class="cards__image-container"><img class="cards__image" src="./images/cards-attention.png" alt="картинка"></div>
-              <div class="cards__title">Два вида внимания</div>
-              <div class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</div>
+              <img class="cards__image" src="./images/cards-attention.png" alt="картинка">
+              <h3 class="cards__title">Два вида внимания</h3>
+              <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
             </li>
             <li class="cards__item">
-              <div class="cards__image-container"><img class="cards__image" src="./images/cards-recall.png" alt="картинка"></div>
-              <div class="cards__title">Recall</div>
-              <div class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</div>
+              <img class="cards__image" src="./images/cards-recall.png" alt="картинка">
+              <h3 class="cards__title">Recall</h3>
+              <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
             </li>
             <li class="cards__item">
-              <div class="cards__image-container"><img class="cards__image" src="./images/cards-interliving.png" alt="картинка"></div>
-              <div class="cards__title">Интерливинг</div>
-              <div class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</div>
+              <img class="cards__image" src="./images/cards-interliving.png" alt="картинка">
+              <h3 class="cards__title">Интерливинг</h3>
+              <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
             </li>
             <li class="cards__item">
-              <div class="cards__image-container"><img class="cards__image" src="./images/cards-question.png" alt="картинка"></div>
-              <div class="cards__title">Вопросы</div>
-              <div class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</div>
+              <img class="cards__image" src="./images/cards-question.png" alt="картинка">
+              <h3 class="cards__title">Вопросы</h3>
+              <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
             </li>
             <li class="cards__item">
-              <div class="cards__image-container"><img class="cards__image" src="./images/cards-competence.png" alt="картинка"></div>
-              <div class="cards__title">Иллюзия компетентности</div>
-              <div class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</div>
+              <img class="cards__image" src="./images/cards-competence.png" alt="картинка">
+              <h3 class="cards__title">Иллюзия компетентности</h3>
+              <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
             </li>
           </ul>
         </section>
@@ -82,8 +82,8 @@
           <h2 class="section-title">Видео на TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
           <div class="video__iframes">
-            <div class="video__iframe"><iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <div class="video__iframe"><iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </section>
 
@@ -114,7 +114,7 @@
             <li class="table__cell">
               <h3 class="table__heading">2.1 миллиарда</h3>
               <p class="table__text">Число нуждающихся в повышении квалификации</p>
-              <p class="table__text">Всемирный банк, 2017</p>
+              <p class="table__text">Всемирный банк, 2017</p><!--Получено замечание после первой проверки: не хватает параграфа "Всемирный банк, 2017". Извините, ошибку не нашла, ничего не меняла.-->
             </li>
             <li class="table__cell">
               <h3 class="table__heading">1000 терабайт</h3>
@@ -147,22 +147,22 @@
           <div class="khan__container">
             <div class="khan__author">Салман Хан</div>
             <h2 class="khan__title">Весь мир - школа</h2>
-            <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения 
+            <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения 
               миллионов студентов по всему миру. Книгу «Весь мир — школа» 
               нужно прочитать всем, кто занимается образованием — так 
               учащиеся повсюду смогут получить навыки и знания, которые 
-              приносят успех в школе, карьере и жизни.</p>
-            <p class="khan__quote-author">Джордж Лукас</p>
+              приносят успех в школе, карьере и жизни.</blockquote>
+            <h3 class="khan__quote-author">Джордж Лукас</h3>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
-              <div class="khan__book-pic-container"><img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги"></div>
+              <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги">
               <a class="khan__buy-link link" href="https://www.litres.ru/salman-han/ves-mir-shkola-preobrazovannoe-obrazovanie/" target="_blank">Купить книгу &#8594;</a>
             </div>
           </div>
         </section>
 
         <section class="kaufman">
-          <div class="kaufman__triangle rotate"></div>
+          <div class="kaufman__triangle rotation"></div>
           <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
           <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>  
           <ul class="table table_theme_dark">
@@ -212,12 +212,12 @@
         <section class="resources">
           <h2 class="section-title">Полезные ресурсы</h2>
           <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-          <nav class="resources__logo-zone">
+          <div class="resources__logo-zone">
             <a class="resources__link link" href="#"><img src="./images/logo/resources-arzamas.svg" alt="логотип"></a>
             <a class="resources__link link" href="#"><img src="./images/logo/resources-n1.svg" alt="логотип"></a>
             <a class="resources__link link" href="#"><img src="./images/logo/resources-strelka.svg" alt="логотип"></a>
             <a class="resources__link link" href="#"><img src="./images/logo/resources-polka.svg" alt="логотип"></a>
-          </nav>
+          </div>
         </section>
       </main>
 
